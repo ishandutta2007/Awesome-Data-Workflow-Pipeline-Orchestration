@@ -72,55 +72,55 @@ The table below lists top enterprise data orchestration platforms sorted by comp
 
 ## 🔓 Open-Source GitHub Projects
 
-*Sorted by GitHub Star Count (Descending)* 🌟
+*Sorted by GitHub Stars_Count (Descending)* 🌟
 
 - **[Apache Airflow](https://github.com/apache/airflow)** [![Stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers)  
-  **The industry standard for data workflow orchestration**, Apache-2.0 licensed. **34.5K+ GitHub stars**. Python-defined DAGs, massive provider ecosystem (AWS, GCP, Azure, Snowflake, dbt), web UI monitoring, and enterprise scheduling. 🏛️
+  **The industry standard for data workflow orchestration**, Apache-2.0 licensed. **34.5K+ GitHub_Stars**. Python-defined DAGs, massive provider ecosystem (AWS, GCP, Azure, Snowflake, dbt), web UI monitoring, and enterprise scheduling. 🏛️
 
 - **[Temporal](https://github.com/temporalio/temporal)** [![Stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)  
-  **Microservice & stateful workflow orchestration engine**, MIT licensed. **26.5K+ GitHub stars**. Guarantees execution of workflow code despite failures, supports Go, Java, Python, and TypeScript. ⚡
+  **Microservice & stateful workflow orchestration engine**, MIT licensed. **26.5K+ GitHub_Stars**. Guarantees execution of workflow code despite failures, supports Go, Java, Python, and TypeScript. ⚡
 
 - **[Prefect](https://github.com/PrefectHQ/prefect)** [![Stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers)  
-  **Modern Python-native workflow orchestration framework**, Apache-2.0 licensed. **18.5K+ GitHub stars**. Dynamic execution graphs, event-driven triggers, zero boilerplate, and developer-friendly task decorators. 🌊
+  **Modern Python-native workflow orchestration framework**, Apache-2.0 licensed. **18.5K+ GitHub_Stars**. Dynamic execution graphs, event-driven triggers, zero boilerplate, and developer-friendly task decorators. 🌊
 
 - **[Luigi](https://github.com/spotify/luigi)** [![Stars](https://img.shields.io/github/stars/spotify/luigi?style=social&color=white)](https://github.com/spotify/luigi/stargazers)  
-  **Python batch job pipeline builder developed by Spotify**, Apache-2.0 licensed. **17.5K+ GitHub stars**. Dependency resolution, target output verification, and Hadoop/Spark task chaining. 📦
+  **Python batch job pipeline builder developed by Spotify**, Apache-2.0 licensed. **17.5K+ GitHub_Stars**. Dependency resolution, target output verification, and Hadoop/Spark task chaining. 📦
 
 - **[Argo Workflows](https://github.com/argoproj/argo-workflows)** [![Stars](https://img.shields.io/github/stars/argoproj/argo-workflows?style=social&color=white)](https://github.com/argoproj/argo-workflows/stargazers)  
-  **Kubernetes-native container workflow engine**, Apache-2.0 licensed. **15.2K+ GitHub stars**. CNCF Graduated project for orchestrating parallel compute jobs and ML pipelines on Kubernetes. ☸️
+  **Kubernetes-native container workflow engine**, Apache-2.0 licensed. **15.2K+ GitHub_Stars**. CNCF Graduated project for orchestrating parallel compute jobs and ML pipelines on Kubernetes. ☸️
 
 - **[Windmill](https://github.com/windmill-labs/windmill)** [![Stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers)  
-  **Developer platform for turn scripts into workflows & internal apps**, AGPL-3.0 licensed. **13.1K+ GitHub stars**. High performance (Rust core), supports Python, TypeScript, Go, Bash, and SQL with auto-generated UIs. 🚀
+  **Developer platform for turn scripts into workflows & internal apps**, AGPL-3.0 licensed. **13.1K+ GitHub_Stars**. High performance (Rust core), supports Python, TypeScript, Go, Bash, and SQL with auto-generated UIs. 🚀
 
 - **[Kestra](https://github.com/kestra-io/kestra)** [![Stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers)  
-  **Declarative YAML-based data orchestration engine**, Apache-2.0 licensed. **11.8K+ GitHub stars**. Language-agnostic plugin engine, real-time event triggers, and rich built-in web interface. 📝
+  **Declarative YAML-based data orchestration engine**, Apache-2.0 licensed. **11.8K+ GitHub_Stars**. Language-agnostic plugin engine, real-time event triggers, and rich built-in web interface. 📝
 
 - **[Dagster](https://github.com/dagster-io/dagster)** [![Stars](https://img.shields.io/github/stars/dagster-io/dagster?style=social&color=white)](https://github.com/dagster-io/dagster/stargazers)  
-  **Data orchestration platform for the modern data stack**, Apache-2.0 licensed. **10.5K+ GitHub stars**. Software-defined assets (SDAs), data lineage, built-in testing, and typed execution contexts. 🧱
+  **Data orchestration platform for the modern data stack**, Apache-2.0 licensed. **10.5K+ GitHub_Stars**. Software-defined assets (SDAs), data lineage, built-in testing, and typed execution contexts. 🧱
 
 - **[Mage](https://github.com/mage-ai/mage-ai)** [![Stars](https://img.shields.io/github/stars/mage-ai/mage-ai?style=social&color=white)](https://github.com/mage-ai/mage-ai/stargazers)  
-  **Notebook-style pipeline development tool**, Apache-2.0 licensed. **10.3K+ GitHub stars**. Fast developer experience for building data transformations in Python, SQL, and R with interactive UI. 🧙
+  **Notebook-style pipeline development tool**, Apache-2.0 licensed. **10.3K+ GitHub_Stars**. Fast developer experience for building data transformations in Python, SQL, and R with interactive UI. 🧙
 
 - **[dbt Core](https://github.com/dbt-labs/dbt-core)** [![Stars](https://img.shields.io/github/stars/dbt-labs/dbt-core?style=social&color=white)](https://github.com/dbt-labs/dbt-core/stargazers)  
-  **The open-source SQL transformation engine**, Apache-2.0 licensed. **9.8K+ GitHub stars**. Modular SQL modeling, automated testing, documentation generation, and warehouse compilation. 🛠️
+  **The open-source SQL transformation engine**, Apache-2.0 licensed. **9.8K+ GitHub_Stars**. Modular SQL modeling, automated testing, documentation generation, and warehouse compilation. 🛠️
 
 - **[Kedro](https://github.com/kedro-org/kedro)** [![Stars](https://img.shields.io/github/stars/kedro-org/kedro?style=social&color=white)](https://github.com/kedro-org/kedro/stargazers)  
-  **Data science Python framework for reproducible production pipelines**, Apache-2.0 licensed. **9.2K+ GitHub stars**. Enforces software engineering best practices for data science workflows. 🔬
+  **Data science Python framework for reproducible production pipelines**, Apache-2.0 licensed. **9.2K+ GitHub_Stars**. Enforces software engineering best practices for data science workflows. 🔬
 
 - **[Metaflow](https://github.com/Netflix/metaflow)** [![Stars](https://img.shields.io/github/stars/Netflix/metaflow?style=social&color=white)](https://github.com/Netflix/metaflow/stargazers)  
-  **Human-friendly data science & ML framework developed by Netflix**, Apache-2.0 licensed. **8.1K+ GitHub stars**. Simplifies building, deploying, and managing real-world ML & data pipelines. 🍿
+  **Human-friendly data science & ML framework developed by Netflix**, Apache-2.0 licensed. **8.1K+ GitHub_Stars**. Simplifies building, deploying, and managing real-world ML & data pipelines. 🍿
 
 - **[Cadence](https://github.com/uber/cadence)** [![Stars](https://img.shields.io/github/stars/uber/cadence?style=social&color=white)](https://github.com/uber/cadence/stargazers)  
-  **Fault-tolerant stateful code execution orchestrator developed by Uber**, MIT licensed. **7.5K+ GitHub stars**. Orchestrates long-running, asynchronous, stateful business logic. 🚗
+  **Fault-tolerant stateful code execution orchestrator developed by Uber**, MIT licensed. **7.5K+ GitHub_Stars**. Orchestrates long-running, asynchronous, stateful business logic. 🚗
 
 - **[Flyte](https://github.com/flyteorg/flyte)** [![Stars](https://img.shields.io/github/stars/flyteorg/flyte?style=social&color=white)](https://github.com/flyteorg/flyte/stargazers)  
-  **Kubernetes-native workflow platform for data & ML**, Apache-2.0 licensed. **4.9K+ GitHub stars**. Strongly typed, versioned, reproducible workflows built for concurrent enterprise execution. 🛸
+  **Kubernetes-native workflow platform for data & ML**, Apache-2.0 licensed. **4.9K+ GitHub_Stars**. Strongly typed, versioned, reproducible workflows built for concurrent enterprise execution. 🛸
 
 - **[SQLMesh](https://github.com/TobikoData/sqlmesh)** [![Stars](https://img.shields.io/github/stars/TobikoData/sqlmesh?style=social&color=white)](https://github.com/TobikoData/sqlmesh/stargazers)  
-  **Efficient data transformation & modeling framework**, Apache-2.0 licensed. **2.6K+ GitHub stars**. Virtual Data Environments (VDEs), column-level data lineage, and automated backfills. 🔄
+  **Efficient data transformation & modeling framework**, Apache-2.0 licensed. **2.6K+ GitHub_Stars**. Virtual Data Environments (VDEs), column-level data lineage, and automated backfills. 🔄
 
 - **[Flowfile](https://github.com/Edwardvaneechoud/Flowfile)** [![Stars](https://img.shields.io/github/stars/Edwardvaneechoud/Flowfile?style=social&color=white)](https://github.com/Edwardvaneechoud/Flowfile/stargazers)  
-  **Visual data pipeline builder with Polars engine**, MIT licensed. **1.2K+ GitHub stars**. Node-based UI for joins, aggregations, Kafka streaming, and Delta Lake storage. 🎨
+  **Visual data pipeline builder with Polars engine**, MIT licensed. **1.2K+ GitHub_Stars**. Node-based UI for joins, aggregations, Kafka streaming, and Delta Lake storage. 🎨
 
 ---
 
@@ -130,7 +130,7 @@ Contributions are welcome! Follow these steps to submit new orchestration platfo
 
 1. 🍴 **Fork** the repository.
 2. 📝 **Add/edit** entries in `README.md` maintaining table/list structure and formatting.
-3. 🔗 Include project title, official website/GitHub link, exact star badge, license, and brief description.
+3. 🔗 Include project title, official website/GitHub link, exact Stars_Badge, license, and brief description.
 4. 🚀 Submit a **Pull Request** with a descriptive summary of your changes.
 
 Check out [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated lists!
