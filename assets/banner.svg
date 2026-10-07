@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Dark Tech Gradients -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d1a" />
+      <stop offset="50%" stop-color="#10172e" />
+      <stop offset="100%" stop-color="#070914" />
+    </linearGradient>
+
+    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+
+    <linearGradient id="accent-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b92b27" />
+      <stop offset="100%" stop-color="#1565C0" />
+    </linearGradient>
+
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="60%" stop-color="#e0e7ff" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <linearGradient id="flow-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glow-subtle" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes pulseNode {
+        0%, 100% { transform: scale(1); opacity: 0.8; }
+        50% { transform: scale(1.15); opacity: 1; filter: drop-shadow(0 0 12px #38bdf8); }
+      }
+      @keyframes dashFlow {
+        from { stroke-dashoffset: 200; }
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes floatParticle {
+        0% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+        50% { transform: translateY(-15px) translateX(10px); opacity: 0.8; }
+        100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+      }
+      .node-pulse { animation: pulseNode 4s ease-in-out infinite; transform-origin: center; }
+      .flow-dash { stroke-dasharray: 12, 12; animation: dashFlow 8s linear infinite; }
+      .particle { animation: floatParticle 6s ease-in-out infinite; }
+      .title-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; }
+      .subtitle-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; }
+      .badge-pill { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-weight: 600; font-size: 12px; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" rx="16" fill="url(#bg-gradient)" />
+  
+  <!-- Subtle Grid Pattern Background -->
+  <g opacity="0.07">
+    <path d="M0 50H1200 M0 100H1200 M0 150H1200 M0 200H1200 M0 250H1200 M0 300H1200 M0 350H1200" stroke="#ffffff" stroke-width="1"/>
+    <path d="M100 0V400 M200 0V400 M300 0V400 M400 0V400 M500 0V400 M600 0V400 M700 0V400 M800 0V400 M900 0V400 M1000 0V400 M1100 0V400" stroke="#ffffff" stroke-width="1"/>
+  </g>
+
+  <!-- Dynamic DAG Flow Pipeline Animations (Background Layer) -->
+  <g stroke-linecap="round" opacity="0.65">
+    <!-- Connecting DAG Pipeline Curves -->
+    <path d="M 100 100 C 250 40, 350 160, 500 80" fill="none" stroke="url(#flow-line)" stroke-width="3" />
+    <path d="M 500 80 C 650 0, 750 140, 950 60" fill="none" stroke="url(#flow-line)" stroke-width="2" class="flow-dash" />
+    
+    <path d="M 80 320 C 220 380, 380 280, 550 340" fill="none" stroke="url(#flow-line)" stroke-width="3" />
+    <path d="M 550 340 C 720 400, 880 290, 1100 330" fill="none" stroke="url(#flow-line)" stroke-width="2" class="flow-dash" />
+
+    <!-- Additional Abstract Data Pipes -->
+    <path d="M 950 60 C 1050 120, 1120 200, 1100 330" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="6 6" opacity="0.4" />
+  </g>
+
+  <!-- Glowing DAG Nodes (Background Decorative) -->
+  <g opacity="0.75">
+    <circle cx="100" cy="100" r="8" fill="#38bdf8" filter="url(#glow)" class="node-pulse" style="animation-delay: 0s;" />
+    <circle cx="500" cy="80" r="10" fill="#818cf8" filter="url(#glow)" class="node-pulse" style="animation-delay: 1s;" />
+    <circle cx="950" cy="60" r="7" fill="#c084fc" filter="url(#glow)" class="node-pulse" style="animation-delay: 2s;" />
+    <circle cx="80" cy="320" r="9" fill="#34d399" filter="url(#glow)" class="node-pulse" style="animation-delay: 1.5s;" />
+    <circle cx="550" cy="340" r="11" fill="#f472b6" filter="url(#glow)" class="node-pulse" style="animation-delay: 0.5s;" />
+    <circle cx="1100" cy="330" r="8" fill="#fbbf24" filter="url(#glow)" class="node-pulse" style="animation-delay: 2.5s;" />
+  </g>
+
+  <!-- Floating Glowing Particles -->
+  <g>
+    <circle cx="250" cy="70" r="3" fill="#38bdf8" class="particle" style="animation-delay: 0.2s;" />
+    <circle cx="700" cy="90" r="4" fill="#a78bfa" class="particle" style="animation-delay: 1.8s;" />
+    <circle cx="350" cy="330" r="3.5" fill="#34d399" class="particle" style="animation-delay: 1.1s;" />
+    <circle cx="850" cy="350" r="3" fill="#f472b6" class="particle" style="animation-delay: 2.3s;" />
+  </g>
+
+  <!-- Central Foreground Content Container (High Contrast & Clear Readability) -->
+  <g transform="translate(600, 185)" text-anchor="middle">
+    
+    <!-- Central Dark Shield Backdrop for Text Readability -->
+    <rect x="-480" y="-120" width="960" height="230" rx="20" fill="#070914" opacity="0.75" stroke="#1e293b" stroke-width="1.5" />
+
+    <!-- Top Pill Badges -->
+    <g transform="translate(0, -82)">
+      <!-- Pill 1 -->
+      <g transform="translate(-160, 0)">
+        <rect x="-70" y="-14" width="140" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" />
+        <text y="4" fill="#38bdf8" class="badge-pill" text-anchor="middle">⚡ ETL / ELT</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(0, 0)">
+        <rect x="-80" y="-14" width="160" height="28" rx="14" fill="#1e293b" stroke="#818cf8" stroke-width="1.2" />
+        <text y="4" fill="#818cf8" class="badge-pill" text-anchor="middle">🔄 DAG Orchestration</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(160, 0)">
+        <rect x="-70" y="-14" width="140" height="28" rx="14" fill="#1e293b" stroke="#c084fc" stroke-width="1.2" />
+        <text y="4" fill="#c084fc" class="badge-pill" text-anchor="middle">📊 DataOps</text>
+      </g>
+    </g>
+
+    <!-- Main Title -->
+    <text y="-2" fill="url(#text-gradient)" class="title-text" font-size="40" letter-spacing="-0.5" filter="url(#glow-subtle)">
+      Awesome Data Workflow &amp; Pipeline Orchestration
+    </text>
+
+    <!-- Subtitle -->
+    <text y="45" fill="#94a3b8" class="subtitle-text" font-size="18" letter-spacing="0.2">
+      Curated Ecosystem of Commercial Orchestration Platforms &amp; Open-Source Data Engines
+    </text>
+
+    <!-- Bottom Feature Highlights -->
+    <text y="80" fill="#64748b" class="subtitle-text" font-size="13" letter-spacing="1.5">
+      AIRFLOW • PREFECT • DAGSTER • DBT • KESTRA • FLYTE • ARGO • TEMPORAL
+    </text>
+
+  </g>
+
+</svg>
